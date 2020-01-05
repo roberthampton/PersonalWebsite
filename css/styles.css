@@ -1,0 +1,21 @@
+.full-page{
+  height: 100vh;
+  padding-top: 5%;
+}
+
+.personal-description {
+  margin: 10% 0;
+}
+
+#personal-statement {
+  background-image: url('../img/code.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #cccccc;
+  text-align: center;
+}
+
+.statement-text {
+  padding: 30% 0 ;
+
+}
