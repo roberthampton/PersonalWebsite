@@ -11,6 +11,7 @@ html,body
 
 .full-page{
   padding-top: 5%;
+  min-height: 100vh;
 }
 
 .personal-description {
@@ -20,12 +21,28 @@ html,body
 #personal-statement {
   background-image: url('../img/code.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: 100% 100%;
-  background-color: #cccccc;
+  background-color: #3d3b3b;
   text-align: center;
   min-height: 100vh;
 }
 
+.icon-links {
+  font-size: 4em;
+  color: white;
+}
+
 .statement-text {
-  padding-top: 10%;
+  padding-top: 15%;
+  font-size: 5em;
+}
+
+
+.highlighted {
+  background-color: rgba(0,0,0,.65);
+}
+
+#contact-form {
+  padding-top: 5%;
 }
