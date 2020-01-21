@@ -22,11 +22,13 @@ html,body
   background-image: url('../img/code.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   background-color: #3d3b3b;
   text-align: center;
   min-height: 100vh;
 }
+
+
 
 .icon-links {
   font-size: 4em;
@@ -44,6 +46,16 @@ html,body
   border-radius: 15px;
 }
 
+.card {
+  margin-top: 5%;
+}
+
 #contact-form {
-  padding: 5% 0;
+  padding: 2.5% 5%;
+}
+
+@media only screen and (max-width: 650px) {
+  .highlighted {
+    border-radius: 0px;
+  }
 }
